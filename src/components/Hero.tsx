@@ -23,12 +23,6 @@ const Hero = () => {
             </div>
             <div className="pt-4">
               <p className="text-sm text-gray-500">Trusted by companies nationwide</p>
-              <div className="flex flex-wrap gap-6 mt-4 items-center opacity-70">
-                <div className="h-8 w-20 bg-gray-300 rounded"></div>
-                <div className="h-8 w-24 bg-gray-300 rounded"></div>
-                <div className="h-8 w-16 bg-gray-300 rounded"></div>
-                <div className="h-8 w-28 bg-gray-300 rounded"></div>
-              </div>
             </div>
           </div>
           <div className="relative h-64 md:h-96 lg:h-[500px] animate-fade-in" style={{ animationDelay: '0.2s' }}>
