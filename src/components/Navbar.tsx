@@ -8,13 +8,13 @@ const Navbar = () => {
   return (
     <header className="sticky top-0 z-50 w-full bg-white/90 backdrop-blur-sm border-b shadow-sm">
       <div className="container mx-auto px-4 md:px-6">
-        <div className="flex h-20 items-center justify-between">
+        <div className="flex h-[150px] items-center justify-between">
           <div className="flex items-center">
             <a href="/" className="flex items-center">
               <img 
                 src="/lovable-uploads/d9a9e2f7-c592-4421-93ff-a8b941e1896d.png" 
                 alt="Vista Style Logo" 
-                className="h-24 w-auto"
+                className="h-36 w-auto"
               />
             </a>
           </div>
