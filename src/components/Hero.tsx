@@ -35,7 +35,7 @@ const Hero = () => {
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="w-full h-full bg-vista-blue/5 rounded-2xl overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1606293459339-aa5cd72d9582"
+                  src="https://images.unsplash.com/photo-1618160702438-9b02ab6515c9"
                   alt="Corporate Apparel and Promotional Products" 
                   className="w-full h-full object-cover"
                 />
