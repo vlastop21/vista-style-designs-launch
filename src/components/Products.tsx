@@ -49,9 +49,6 @@ const Products = () => {
                   style={{ animationDelay: `${0.1 * (index + 1)}s` }}
                 >
                   <h3 className="text-white font-semibold text-xl mb-2">{category.title}</h3>
-                  <Button asChild variant="outline" className="bg-white/20 backdrop-blur-sm text-white border-white hover:bg-white hover:text-vista-blue w-full">
-                    <a href="#products">View Collection</a>
-                  </Button>
                 </div>
               ))}
             </div>
