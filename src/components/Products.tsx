@@ -1,5 +1,4 @@
 
-import { Button } from '@/components/ui/button';
 import { AspectRatio } from '@/components/ui/aspect-ratio';
 
 const Products = () => {
@@ -19,12 +18,6 @@ const Products = () => {
               className="w-full h-full object-cover"
             />
           </AspectRatio>
-        </div>
-        
-        <div className="mt-12 text-center">
-          <Button asChild className="bg-vista-blue hover:bg-vista-lightblue text-white px-8">
-            <a href="#products">View All Products</a>
-          </Button>
         </div>
       </div>
     </section>
