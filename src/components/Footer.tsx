@@ -1,3 +1,4 @@
+
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -106,8 +107,8 @@ const Footer = () => {
             © {currentYear} Vista Style. All rights reserved.
           </p>
           <div className="mt-4 md:mt-0 space-x-4">
-            <a href="#" className="text-gray-600 hover:text-vista-blue text-sm">Privacy Policy</a>
-            <a href="#" className="text-gray-600 hover:text-vista-blue text-sm">Terms of Service</a>
+            <Link to="/privacy-policy" className="text-gray-600 hover:text-vista-blue text-sm">Privacy Policy</Link>
+            <Link to="/terms-of-service" className="text-gray-600 hover:text-vista-blue text-sm">Terms of Service</Link>
           </div>
         </div>
       </div>
