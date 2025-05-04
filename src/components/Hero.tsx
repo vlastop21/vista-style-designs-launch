@@ -1,3 +1,4 @@
+
 import { Button } from '@/components/ui/button';
 
 const Hero = () => {
@@ -29,9 +30,9 @@ const Hero = () => {
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="w-full h-full bg-vista-blue/5 rounded-2xl overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158"
+                  src="/lovable-uploads/3c2d5777-2f1d-4f9d-9557-9eb27372a8ec.png"
                   alt="Corporate Apparel and Promotional Products" 
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
                 />
               </div>
             </div>
