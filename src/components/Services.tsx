@@ -50,7 +50,9 @@ const Services = () => {
             <p className="text-gray-600 mb-4">
               Can't find what you're looking for? We specialize in creating custom solutions tailored specifically to your brand requirements.
             </p>
-            <Button className="bg-vista-blue hover:bg-vista-lightblue text-white">Contact Our Team</Button>
+            <Button asChild className="bg-vista-blue hover:bg-vista-lightblue text-white">
+              <a href="#contact">Contact Our Team</a>
+            </Button>
           </div>
         </div>
       </div>
