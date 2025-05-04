@@ -19,8 +19,8 @@ const Hero = () => {
               <Button asChild className="bg-vista-blue hover:bg-vista-lightblue text-white px-8 py-6 text-base">
                 <Link to="/quote-request">Request a Quote</Link>
               </Button>
-              <Button variant="outline" className="border-vista-blue text-vista-blue hover:bg-vista-blue/10 px-8 py-6 text-base">
-                View Products
+              <Button asChild variant="outline" className="border-vista-blue text-vista-blue hover:bg-vista-blue/10 px-8 py-6 text-base">
+                <a href="#products">View Products</a>
               </Button>
             </div>
             <div className="pt-4">

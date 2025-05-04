@@ -51,8 +51,8 @@ const Products = () => {
               </div>
               <div className="absolute inset-0 bg-gradient-to-t from-vista-blue/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-4">
                 <h3 className="text-white font-semibold text-xl mb-2">{category.title}</h3>
-                <Button variant="outline" className="bg-white/20 backdrop-blur-sm text-white border-white hover:bg-white hover:text-vista-blue w-full">
-                  View Collection
+                <Button asChild variant="outline" className="bg-white/20 backdrop-blur-sm text-white border-white hover:bg-white hover:text-vista-blue w-full">
+                  <a href="#products">View Collection</a>
                 </Button>
               </div>
             </div>
@@ -60,8 +60,8 @@ const Products = () => {
         </div>
         
         <div className="mt-12 text-center">
-          <Button className="bg-vista-blue hover:bg-vista-lightblue text-white px-8">
-            View All Products
+          <Button asChild className="bg-vista-blue hover:bg-vista-lightblue text-white px-8">
+            <a href="#products">View All Products</a>
           </Button>
         </div>
       </div>
