@@ -1,6 +1,7 @@
 
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -10,19 +11,19 @@ const Navbar = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex h-[150px] items-center justify-between">
           <div className="flex items-center">
-            <a href="/" className="flex items-center">
+            <Link to="/" className="flex items-center">
               <img 
                 src="/lovable-uploads/d9a9e2f7-c592-4421-93ff-a8b941e1896d.png" 
                 alt="Vista Style Logo" 
                 className="h-36 w-auto"
               />
-            </a>
+            </Link>
           </div>
           
           <nav className="hidden md:flex items-center gap-6">
-            <a href="#home" className="text-sm font-medium text-vista-blue hover:text-vista-lightblue transition-colors">
+            <Link to="/" className="text-sm font-medium text-vista-blue hover:text-vista-lightblue transition-colors">
               Home
-            </a>
+            </Link>
             <a href="#services" className="text-sm font-medium text-vista-blue hover:text-vista-lightblue transition-colors">
               Services
             </a>
@@ -35,8 +36,8 @@ const Navbar = () => {
             <a href="#contact" className="text-sm font-medium text-vista-blue hover:text-vista-lightblue transition-colors">
               Contact
             </a>
-            <Button className="bg-vista-blue hover:bg-vista-lightblue text-white">
-              Get a Quote
+            <Button asChild className="bg-vista-blue hover:bg-vista-lightblue text-white">
+              <Link to="/quote-request">Get a Quote</Link>
             </Button>
           </nav>
           
@@ -64,9 +65,9 @@ const Navbar = () => {
       {isMobileMenuOpen && (
         <div className="md:hidden bg-white border-b">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            <a href="#home" className="block px-3 py-2 text-base font-medium text-vista-blue hover:text-vista-lightblue">
+            <Link to="/" className="block px-3 py-2 text-base font-medium text-vista-blue hover:text-vista-lightblue">
               Home
-            </a>
+            </Link>
             <a href="#services" className="block px-3 py-2 text-base font-medium text-vista-blue hover:text-vista-lightblue">
               Services
             </a>
@@ -79,8 +80,8 @@ const Navbar = () => {
             <a href="#contact" className="block px-3 py-2 text-base font-medium text-vista-blue hover:text-vista-lightblue">
               Contact
             </a>
-            <Button className="mt-2 w-full bg-vista-blue hover:bg-vista-lightblue text-white">
-              Get a Quote
+            <Button asChild className="mt-2 w-full bg-vista-blue hover:bg-vista-lightblue text-white">
+              <Link to="/quote-request">Get a Quote</Link>
             </Button>
           </div>
         </div>
