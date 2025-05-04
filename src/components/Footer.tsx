@@ -44,7 +44,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-6 text-vista-blue">Services</h3>
             <ul className="space-y-4">
-              <li><a href="#" className="text-gray-600 hover:text-vista-blue transition-colors">Corporate Apparel</a></li>
+              <li><a href="#products" className="text-gray-600 hover:text-vista-blue transition-colors">Corporate Apparel</a></li>
               <li><a href="#" className="text-gray-600 hover:text-vista-blue transition-colors">Promotional Products</a></li>
               <li><a href="#" className="text-gray-600 hover:text-vista-blue transition-colors">Logo Embroidery</a></li>
               <li><a href="#" className="text-gray-600 hover:text-vista-blue transition-colors">Custom Design</a></li>
@@ -112,3 +112,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
