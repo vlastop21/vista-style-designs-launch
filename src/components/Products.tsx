@@ -4,23 +4,23 @@ import { Button } from '@/components/ui/button';
 const Products = () => {
   const categories = [
     {
-      title: "Polo Shirts",
-      image: "https://images.unsplash.com/photo-1581655353564-df123a1eb820",
+      title: "Plain T-Shirts",
+      image: "/lovable-uploads/46cc21d5-375d-43bf-84f6-18e7c10a77df.png",
       highlight: false,
     },
     {
       title: "Jackets & Outerwear",
-      image: "https://images.unsplash.com/photo-1591047139829-d91aecb6caea",
+      image: "/lovable-uploads/46cc21d5-375d-43bf-84f6-18e7c10a77df.png",
       highlight: true,
     },
     {
-      title: "Drinkware",
-      image: "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d",
+      title: "Hoodies",
+      image: "/lovable-uploads/46cc21d5-375d-43bf-84f6-18e7c10a77df.png",
       highlight: false,
     },
     {
-      title: "Bags & Totes",
-      image: "https://images.unsplash.com/photo-1547949003-9792a18a2601",
+      title: "Dress Shirts",
+      image: "/lovable-uploads/46cc21d5-375d-43bf-84f6-18e7c10a77df.png",
       highlight: false,
     },
   ];
