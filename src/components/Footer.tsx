@@ -60,8 +60,8 @@ const Footer = () => {
                   About Us
                 </Link>
               </li>
-              <li><a href="#" className="text-gray-600 hover:text-vista-blue transition-colors">Portfolio</a></li>
-              <li><a href="#" className="text-gray-600 hover:text-vista-blue transition-colors">Testimonials</a></li>
+              <li><a href="#products" className="text-gray-600 hover:text-vista-blue transition-colors">Portfolio</a></li>
+              <li><a href="#testimonials" className="text-gray-600 hover:text-vista-blue transition-colors">Testimonials</a></li>
             </ul>
           </div>
           
