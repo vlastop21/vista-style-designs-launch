@@ -1,3 +1,6 @@
+
+import { Link } from 'react-router-dom';
+
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   
@@ -53,7 +56,11 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-6 text-vista-blue">Company</h3>
             <ul className="space-y-4">
-              <li><a href="#" className="text-gray-600 hover:text-vista-blue transition-colors">About Us</a></li>
+              <li>
+                <Link to="/about-us" className="text-gray-600 hover:text-vista-blue transition-colors">
+                  About Us
+                </Link>
+              </li>
               <li><a href="#" className="text-gray-600 hover:text-vista-blue transition-colors">Our Process</a></li>
               <li><a href="#" className="text-gray-600 hover:text-vista-blue transition-colors">Portfolio</a></li>
               <li><a href="#" className="text-gray-600 hover:text-vista-blue transition-colors">Testimonials</a></li>
