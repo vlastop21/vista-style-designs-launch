@@ -1,5 +1,6 @@
 
 import { Button } from '@/components/ui/button';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
@@ -15,8 +16,8 @@ const Hero = () => {
               Premium promotional products, corporate apparel, and professional logo embroidery services tailored for your business.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button className="bg-vista-blue hover:bg-vista-lightblue text-white px-8 py-6 text-base">
-                Request a Quote
+              <Button asChild className="bg-vista-blue hover:bg-vista-lightblue text-white px-8 py-6 text-base">
+                <Link to="/quote-request">Request a Quote</Link>
               </Button>
               <Button variant="outline" className="border-vista-blue text-vista-blue hover:bg-vista-blue/10 px-8 py-6 text-base">
                 View Products

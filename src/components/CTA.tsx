@@ -1,5 +1,6 @@
 
 import { Button } from '@/components/ui/button';
+import { Link } from 'react-router-dom';
 
 const CTA = () => {
   return (
@@ -16,8 +17,8 @@ const CTA = () => {
             Partner with Vista Style for premium promotional products and corporate apparel that make a lasting impression.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Button className="bg-white text-vista-blue hover:bg-vista-gold hover:text-vista-blue text-base font-medium px-8 py-6">
-              Request a Quote
+            <Button asChild className="bg-white text-vista-blue hover:bg-vista-gold hover:text-vista-blue text-base font-medium px-8 py-6">
+              <Link to="/quote-request">Request a Quote</Link>
             </Button>
             <Button variant="outline" className="border-white text-white hover:bg-white/10 text-base font-medium px-8 py-6">
               Contact Us
